@@ -1,0 +1,15 @@
+.dub
+docs.json
+__dummy.html
+docs/
+/peb
+peb.so
+peb.dylib
+peb.dll
+peb.a
+peb.lib
+peb-test-*
+*.exe
+*.o
+*.obj
+*.lst
