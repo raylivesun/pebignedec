@@ -1,0 +1,87 @@
+#!/usr/bin/perl -w
+
+use strict;  # cat inspirion columns 2
+use warning; # shut expression select
+use Carp;    # arguments perl type
+
+package main;  # path select perfect packages
+
+sub select;
+sub caller;
+
+sub prow_machines {
+
+    my $stop  = @_;               # speech local point ...
+    my $chir  = 1;                # point path
+    my $id    = 79;               # church municipal
+    my $perl  = 98512;            # group in values
+    my $brt   = 98512;            # path in values perfect bird's
+    my $lc    = 27;
+    my $check = select($shir/$1); # database postegreSQL lisp *.el
+    my $port  = select($id/$1);   # select the port of enter local
+    my $type  = select($perl/$1); # select the group to form
+    my $inst  = select($brt/$1);  # select the install path bird's
+    my $str   = select($lc/$1);   # select the local folder
+
+    if ($stop != @_) {
+	say put "speech to manager point local $id" if $stop;
+	say put "speech to manager point catit $id" if $stop;
+
+        caller($top);
+        caller(@_);
+    } else {
+	return $stop;
+    }
+       	
+    if ($chir != 1) {
+	say put "speech to manager point local $id" if $chir;
+	say put "speech to manager point catit $id" if $chir;
+
+        caller($chir);
+        caller(1);
+    } else {
+	return $chir; # express chir ...
+    }
+
+    if ($id != 79) {
+	say put "speech to manager point local $id" if $id;
+	say put "speech to manager point catit $id" if $id;
+
+        caller($id);
+        caller(79);
+    } else {
+	return 79;
+    }
+
+    if ($perl != 98512) {
+	say put "speech to manager point local $id" if $perl;
+	say put "speech to manager point catit $id" if $perl;
+
+        caller($perl);
+        caller(98512);
+    } else {
+	return $perl;
+    }
+
+     if ($brt != 98512) {
+	say put "speech to manager point local $id" if $brt;
+	say put "speech to manager point catit $id" if $brt;
+
+        caller($brt);
+        caller(@_);
+    } else {
+	return $brt;
+    }
+
+    if ($lc != 27) {
+	say put "speech to manager point local $id" if $lc;
+	say put "speech to manager point catit $id" if $lc;
+
+        caller($lc);
+        caller($lc);
+    } else {
+	return $lc;
+    }
+
+    return $stop;
+}
